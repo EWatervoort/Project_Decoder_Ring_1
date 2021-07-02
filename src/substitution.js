@@ -6,7 +6,7 @@
 const substitutionModule = (function () {
   const originalAlphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 
-  function substitution(input, alphabet, encode = true) {
+  function substitution(input, alphabet = '', encode = true) {
     let codeAlphabet = alphabet.toLowerCase().split("");
     let normalAlphabet = originalAlphabet;
 
